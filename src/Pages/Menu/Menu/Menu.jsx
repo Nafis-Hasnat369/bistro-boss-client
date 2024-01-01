@@ -19,7 +19,7 @@ const Menu = () => {
     return (
         <div>
             <Helmet><title>Bistro Boss | Menu</title></Helmet>
-            <Cover img={menuImg} title="our menu" />
+            <Cover img={menuImg} title="our menu" description="Welcome to the menu" />
             <SectionTitle heading="---Don't miss---" subHeading="todays offer" />
             <MenuCategory items={offered} />
             <MenuCategory items={dessert} title="Desserts" img={dessertBG} />

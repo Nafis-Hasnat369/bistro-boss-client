@@ -6,7 +6,7 @@ const Order = () => {
     return (
         <div>
             <Helmet><title>Bistro Boss | Orders</title></Helmet>
-            <Cover img={orderCover} title="Order Food" />
+            <Cover img={orderCover} title="Order Food" description="Confirm your food here" />
         </div>
     );
 };

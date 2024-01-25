@@ -11,7 +11,7 @@ const MenuItem = ({ item }) => {
             </div>
             <p className="text-orange-500">${price}</p>
             <Link to="/order">
-                <button className="btn btn-outline border-0 border-b-4 mt-5 text-black">Order Now</button>
+                <button className="btn btn-outline border-0 border-b-4 mt-5">Order Now</button>
             </Link>
         </div>
     );
